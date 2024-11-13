@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const vendorPaymentsSchema = new Schema({
-    transactio_id:{
+    transaction_id:{
         type: String,
         required: true,
         unique: true,
